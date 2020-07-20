@@ -1,0 +1,115 @@
+body {
+  /* font-family: 'Roboto Mono', monospace; */
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  /* font-size: 30px; */
+}
+
+.nav-tabs .nav-link {
+  background-color: rgb(53, 53, 53);
+  color: gray;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: rgb(59, 59, 59);
+  color: white;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  background-color: rgb(68, 68, 68);
+}
+
+.bg {
+  background-color: rgb(59, 59, 59);
+  height: 100%;
+  overflow: auto;
+}
+
+.bg-tab {
+  background-color: rgb(59, 59, 59);
+  height: 230px;
+  overflow: auto;
+}
+
+.bg-tab2 {
+  background-color: rgb(59, 59, 59);
+  height: 583px;
+  overflow: auto;
+}
+
+.bg-image {
+  background-image: url("https://media.giphy.com/media/UC8DbMqXvkpd6/giphy.gif");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(59, 59, 59);
+  height: 100%;
+  overflow: auto;
+}
+
+.maintitle {
+  font-size: 40px;
+}
+
+.titles {
+  font-size: 30px;
+}
+
+.topbar {
+  background-color: rgb(59, 59, 59);
+  margin: 5px 0px 5px 0px;
+  height: 150px;
+}
+
+.height1 {
+  height: 700px;
+}
+
+.height2 {
+  height: 400px;
+  margin: 5px 0px 5px 0px;
+}
+
+.tenper {
+  height: 10%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.eightper {
+  height: 90%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.fourper {
+  height: 40%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.allper {
+  height: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(32, 32, 32); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
