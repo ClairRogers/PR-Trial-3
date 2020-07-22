@@ -1,8 +1,8 @@
 body {
-  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'Reem Kufi', sans-serif;
   background-color: black;
   color: rgb(255, 255, 255);
-  font-size: 13px;
+  font-size: 14px;
   /* font-size: 30px; */
 }
 
@@ -55,20 +55,24 @@ body {
 
 .maintitle {
   font-size: 40px;
+  font-family: 'Limelight', sans-serif;
 }
 
 .maintitlegraphic {
   font-size: 45px;
   height: 200px;
   font-style: italic;
+  font-family: 'Limelight', sans-serif;
 }
 
 .maintitle2 {
   font-size: 20px;
+  font-family: 'Limelight', sans-serif;
 }
 
 .titles {
   font-size: 30px;
+  font-family: 'Limelight', sans-serif;
 }
 
 .topbar {
