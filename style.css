@@ -1,45 +1,71 @@
 body {
   font-family: 'Reem Kufi', sans-serif;
-  background-color: black;
-  color: rgb(255, 255, 255);
+  background-color: #27202b;
+  color: #c996a2;
   font-size: 14px;
   /* font-size: 30px; */
 }
 
+p {
+  letter-spacing: .05rem;
+}
+
+li {
+  letter-spacing: .025rem;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #b9ceca;
+}
+
+a {
+  color: #ebec49;
+}
+a:hover {
+  text-decoration: none;
+  color: #ffff70;
+}
+
+b {
+  color: #e6acba;
+}
+
 .nav-tabs .nav-link {
-  background-color: rgb(53, 53, 53);
-  color: gray;
+  background-color: #532735;
+  color: #b9ceca;
 }
 
 .nav-tabs .nav-link.active {
-  background-color: rgb(59, 59, 59);
-  color: white;
+  background-color: #672F41;
+  color: #b9ceca;
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  background-color: rgb(68, 68, 68);
+  background-color: #75364a;
 }
 
 .bg {
-  background-color: rgb(59, 59, 59);
+  background-color: #672F41;
   height: 100%;
   overflow: auto;
 }
 
 .bg-tab {
-  background-color: rgb(59, 59, 59);
+  background-color: #672F41;
   height: 230px;
   overflow: auto;
 }
 
 .bg-tab2 {
-  background-color: rgb(59, 59, 59);
+  background-color: #672F41;
   height: 583px;
   overflow: auto;
 }
 
 .bg-rules {
-  background-color: rgb(59, 59, 59);
+  background-color: #672F41;
   height: 266px;
   overflow: auto;
 }
@@ -48,7 +74,7 @@ body {
   background-image: url("https://media.giphy.com/media/UC8DbMqXvkpd6/giphy.gif");
   background-size: cover;
   background-position: center;
-  background-color: rgb(59, 59, 59);
+  background-color: #672F41;
   height: 100%;
   overflow: auto;
 }
@@ -63,26 +89,29 @@ body {
   height: 200px;
   font-style: italic;
   font-family: 'Limelight', sans-serif;
+  color: #ebec49;
 }
 
 .maintitle2 {
   font-size: 20px;
   font-family: 'Limelight', sans-serif;
+  color: #ebec49;
 }
 
 .titles {
   font-size: 30px;
   font-family: 'Limelight', sans-serif;
+  color: #ebec49;
 }
 
 .topbar {
-  background-color: rgb(59, 59, 59);
+  background-color: #672F41;
   margin: 5px 0px 5px 0px;
   height: 150px;
 }
 
 .topbar2 {
-  background-color: rgb(59, 59, 59);
+  background-color: #672F41;
   margin: 5px 0px 5px 0px;
   height: 70px;
 }
@@ -93,7 +122,7 @@ body {
 
 .height2 {
   height: 400px;
-  margin: 5px 0px 5px 0px;
+  margin: 10px 0px 5px 0px;
 }
 
 .tenper {
@@ -127,15 +156,15 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(32, 32, 32); 
+  background: #35283c; 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #b9ceca; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #d2e7e3; 
 }
