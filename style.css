@@ -24,8 +24,7 @@ a {
   color: #ebec49;
 }
 a:hover {
-  text-decoration: none;
-  color: #ffff70;
+  color: #b9ceca;
 }
 
 b {
@@ -54,7 +53,7 @@ b {
 
 .bg-tab {
   background-color: #672F41;
-  height: 230px;
+  height: 290px;
   overflow: auto;
 }
 
@@ -66,7 +65,7 @@ b {
 
 .bg-rules {
   background-color: #672F41;
-  height: 266px;
+  height: 328px;
   overflow: auto;
 }
 
